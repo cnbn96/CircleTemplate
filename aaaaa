@@ -1,0 +1,11 @@
+<div class="col-2">
+                    <img src="circle-template-assets\logo.png" alt="HOME" class="image">
+                </div>
+                <div class="col-10 social">
+                    <ul class="menu">
+                        <li class="item"><i class="fa fa-thumb-up"></i></li>
+                        <li class="item"><i class="fa fa-twitter"></i></li>
+                        <li class="item"><i class="fa fa-skype"></i></li>
+                        <li class="item"><i class="fa fa-dribbble"></i></li>
+                    </ul>
+                </div>
