@@ -49,9 +49,21 @@ h2 {
   margin: 0;  
 }
 
+h3{
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
 
-h3, h4, h5 {
-    
+h4{
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px; 
 }
 
 
@@ -109,7 +121,7 @@ img {
     margin-right: auto;
     margin-left: auto;
 }
-
+/*
 .border-circle{
   padding: 17.5px 16.5px;
   border-radius:50%;
@@ -117,20 +129,32 @@ img {
   background-repeat: no-repeat;
   width: 51px;
   height: 51px;
+}*/
+
+.border-circle {
+  padding: 10px 15px;
+  border : 4px solid rgb(239, 250, 255);
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( 90deg, #323435 0%, rgb(0,0,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, #323435 0%, rgb(0,0,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, #323435 0%, rgb(0,0,0) 100%);
+  opacity: 0.8;
+  box-shadow: 1px 1px 1px 0 #323435;
 }
 
 .border-circle:hover{
   transition: .2s all;
-  background-image: url('../../circle-template-assets/circle-btn-hover.png');
-  background-repeat: no-repeat;  
+  background-image: -moz-linear-gradient( 90deg, #215796 0%, #3170ac 100%);
+  background-image: -webkit-linear-gradient( 90deg, #215796 0%, #3170ac 100%);
+  background-image: -ms-linear-gradient( 90deg, #215796 0%, #3170ac 100%);
 }
 
 .border-rectangle{
-  border-color: 3px solid rgb(243, 243, 243);
+  border: 3px solid rgb(243, 243, 243);
   border-radius: 2px;
-  background-color: rgb(69, 72, 74);
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.39);    
 }
+
 
 .navbar-menu i.fa{
     color:#6e7071;
@@ -331,7 +355,6 @@ img {
     padding: 30px 10px;
     background-image: url(../../circle-template-assets/learn-more.png);
     background-size: cover;
-    background-repeat: no-repeat;
     width: 90px;
     height: 90px;
 }
@@ -371,8 +394,6 @@ img {
     transition: 2s ease-in-out;    
 }
 
-feature:hover .image
-
 .features:first-child{
     background: black;
 }
@@ -381,12 +402,6 @@ feature:hover .image
     margin-bottom: 20px;
 }
 
-.feature .title{
-    font-size: 24px;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
-}
 
 .feature:hover{
     color: #f3f3f3;
@@ -402,17 +417,125 @@ feature:hover .image
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent; 
     position: absolute;
-    top : 50%;
+    top : 49%;
     right: -10px;
 }
 /*-----------------------------/
             RECENT-WORKs
 ----------------------------- */
+.recent-works{
+    padding: 40px 10px;
+}
 
+.work{
+    padding-right: 30px;
+    position: relative;
+}
+
+.work .description{
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.work .angle{
+    font-size: 25px;
+}
+
+.work .angle:last-child{
+    margin-left: 10px;
+}
+
+.work .angle:hover{
+    color: #3170ac;
+    cursor: pointer;
+} 
+
+.gallery .project-gallery{
+    float: left;
+    position: relative;
+    margin: 0 10px;
+    width: 219px;
+    height: 206px;
+    color: #a6abaf;
+}
+
+.gallery .project-gallery:last-child{
+    margin-right: 0;
+    margin-left: 5px
+}
+
+.project-title{
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0px;
+    font-size: 11px;
+    line-height: 20px;
+    border-radius: 2px;
+    width: 100%;    
+    background-color: rgba(0, 0, 0,0.451);
+}
+.project-title .title{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+  color: rgb(243, 243, 243);
+}
 
 /*-----------------------------/
             SERVICES
 ----------------------------- */
+
+.services{
+  background-image: url(../../circle-template-assets/services-bg.jpg);
+  background-size: cover;
+  border-top:1px solid rgb(255, 255, 255);
+  border-bottom:1px solid rgb(255, 255, 255);
+  border-radius: 7px;
+  padding-top: 40px;
+  padding-bottom : 40px;
+}
+
+.services .image{
+    padding: 10px;
+    width: 65px;
+    height: 65px;
+}
+
+.service{
+    padding-left: 10px; 
+}
+
+.content-service{
+    margin-left: 20px;
+}
+
+.content-service .menu {
+    font-size: 12px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.content-service .menu li{
+    position: relative;
+    text-transform: capitalize;
+}
+
+.content-service .menu .li-angle{
+    background-image: url(../../circle-template-assets/li-angle-right.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 3px;
+    height: 5px;
+    left: 0;
+    margin-right: 10px;
+}
+
+
+
+
+
 
 /*-----------------------------/
             RECENT POSTs
