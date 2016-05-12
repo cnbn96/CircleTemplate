@@ -1,3 +1,3 @@
-[Wed May 11 2016 17:21:25 GMT+0700 (SE Asia Standard Time)] layer "With just a few clicks you can add any color you want.compatibl": Unsupported extension: compatibl
-[Wed May 11 2016 17:21:25 GMT+0700 (SE Asia Standard Time)] layer "With just a few clicks you can add any color you want.compatibl copy": Expected end of input but "c" found.
-[Wed May 11 2016 17:21:25 GMT+0700 (SE Asia Standard Time)] layer "sarah doe Ceo, Company.com": Unsupported extension: com
+[Thu May 12 2016 11:04:31 GMT+0700 (SE Asia Standard Time)] layer "With just a few clicks you can add any color you want.compatibl": Unsupported extension: compatibl
+[Thu May 12 2016 11:04:31 GMT+0700 (SE Asia Standard Time)] layer "With just a few clicks you can add any color you want.compatibl copy": Expected end of input but "c" found.
+[Thu May 12 2016 11:04:31 GMT+0700 (SE Asia Standard Time)] layer "sarah doe Ceo, Company.com": Unsupported extension: com

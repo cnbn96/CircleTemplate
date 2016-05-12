@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Flexible - responsive multi-purpose one page</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel='stylesheet' id='style-css' href='assets/css/style.css' type='text/css' media='all' />
 </head>
@@ -15,10 +15,10 @@
             <div class="container">
                 <header class="site-header">
                     <div class="row">
-                        <div class="col-2 logo">
-                            <img src="circle-template-assets\logo.png" alt="HOME" class="image">
+                        <div class="col-3 logo">
+                            <a href="#"><img src="circle-template-assets\logo.png" alt="HOME" class="image"></a>
                         </div>
-                        <div class="col-10 social">
+                        <div class="col-9 social">
                             <ul class="menu right">
                                 <li class="item"><i class="fa fa-thumbs-up"></i></li>
                                 <li class="item"><i class="fa fa-twitter"></i></li>
@@ -45,44 +45,76 @@
             </div>
         </div>
         <section class="hero-section">
-            <div class="container">
-                <div class="hero-image">
-                    <div class="row hero-navbar">
-                        <nav class="navigation">
-                            <div class="row navbar">
-                                <ul class="navbar-menu">
-                                    <li class="item active"><a href="#">HOME</a></li>
-                                    <li class="item"><a href="#">BLOG</a></li>
-                                    <li class="item"><a href="#">GALLERY</a></li>
-                                    <li class="item"><a href="#">PAGES</a></li>
-                                    <li class="item"><a href="#">CONTACT</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="hero-content text-center">
-                        <div class="message">
-                            <h1 class="title"><strong>CLEAN</strong><br>& PERFECT</h1>                            
-                            <p class="description">Morbi a libero eget erat auctor cursus vitae id tortor. Suspendisse rhoncus.</p>
+            <div class="hero-image">
+                <div class="hero-navbar">
+                    <div class="container">
+                        <div class="row">
+                            <nav class="navigation">
+                                <div class="row navbar">
+                                    <ul class="navbar-menu">
+                                        <li class="item active"><a href="#">HOME</a></li>
+                                        <li class="item"><a href="#">BLOG</a></li>
+                                        <li class="item"><a href="#">GALLERY</a></li>
+                                        <li class="item"><a href="#">PAGES</a></li>
+                                        <li class="item"><a href="#">CONTACT</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
                         </div>
-                        <div class="slide-btn">
-                            <i class="border-circle fa fa-angle-left"></i>
-                            <i class="border-circle fa fa-angle-right"></i>
+                        <div class="hero-content text-center">
+                            <div class="message">
+                                <h1 class="title"><strong>CLEAN</strong><br>& PERFECT</h1>
+                                <p class="description">Morbi a libero eget erat auctor cursus vitae id tortor. Suspendisse rhoncus.</p>
+                            </div>
+                            <div class="slide-btn">
+                                <i class="border-circle fa fa-angle-left"></i>
+                                <i class="border-circle fa fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="info-content">
+                                <h2 class="title">A fully responsive theme with clean & pixel perfect design.</h2>
+                                <p class="description">Suspendisse tristique ante sit amet sem pulvinar posuere.</p>
+                            </div>
+                        </div>
+                        <div class="col-2 info-image">
+                            LEARN<br>MORE
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="content col-10">
-                        <h1 class="title">A fully responsive theme with clean & pixel perfect design.</h1>
-                        <p class="description">Suspendisse tristique ante sit amet sem pulvinar posuere.</p>                        
+        </section>
+        <section class="features">
+            <div class="row">
+                <div class="container">
+                    <div class="col-4 text-center feature">
+                        <img src="circle-template-assets/research.png" onmouseout="this.src='circle-template-assets/research-1.png'" onmouseover="this.src='circle-template-assets/research.png'" alt="Deep Research" class="image">
+                        <h3 class="title">Deep Research</h3>
+                        <p class="description">IT WAS HARD TO MAKE IT SO COOL</p>
+                        <div class="arrow"></div>
                     </div>
-                    <div class="image col-2">
-                        <img src="circle-template-assets\learn-more.png" alt="LEARN MORE">
+                    <div class="col-4 text-center feature">
+                        <img src="circle-template-assets/approach.png" alt="Unique Approach" class="image">
+                        <h3 class="title">Unique Approach</h3>
+                        <p class="description">IT WAS fun TO MAKE IT SO COOL</p>
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="col-4 text-center feature">
+                        <img src="circle-template-assets/support.png" alt="Advanced Support" class="image">
+                        <h3 class="title">Advanced Support</h3>
+                        <p class="description">IT is cool TO keep IT SO COOL</p>
                     </div>
                 </div>
             </div>
         </section>
     </div>
 </body>
+
+
